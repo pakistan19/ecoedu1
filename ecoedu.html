@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <title>EcoEdu</title>
+    <link rel="stylesheet" href="ecoedu.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" height="50" width="50">
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="ecoedu.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    <li><a href="subscriptions.html">Subscriptions</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li> 
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    
+    <section class="home">
+    </section>
+
+    <div>
+        <div style="width: 100%; padding-left: 4%; padding-right: 4%; padding-top: 50px; padding-bottom: 20px;">
+            <h1>About Us</h1>
+            <p>Our mission is to inspire young minds to learn and grow in harmony with the environment. We believe that education should not only be fun and engaging but also instill values of sustainability and responsibility towards our planet. By providing eco-friendly educational kits, we aim to nurture the next generation of eco-conscious leaders who will shape a better, greener future.</p>
+            <br>
+            <form action="about.html">
+                <button type="submit" class="button">About Us</button>
+            </form>
+        </div>
+    </div>
+
+
+
+        <hr>
+        <div style="width: 100%;">
+            <div style="width: 50%; float:left; padding-left: 8%; padding-top: 3%; justify-content: space-around;">
+                <h1>Our kits</h1>
+                <p>Our EcoEdu Sustainable Learning Kits are thoughtfully designed to engage young minds in hands-on learning while promoting environmental stewardship. Each kit is packed with eco-friendly materials and curated activities that inspire creativity, critical thinking, and a love for science, technology, engineering, arts, and mathematics (STEAM).</p>
+                <form action="kits.html">
+                    <button type="submit" class="button">Our Kits</button>
+                </form>
+                <br><br><br>
+            </div>
+            <div style="width: 50%; float:right; justify-content: space-around;">
+                <img src="img4.jpg" height="auto" width="auto" class="center" style="padding-bottom: 10px;">
+            </div>
+        </div>
+
+        
+        <div>
+            <div style=" padding-bottom: 3%; float: left; width: 50%; height: auto; padding-left: 8%; padding-right: 8%;">
+                <br>
+                <h1>Subscription Plans</h1>
+                <br>
+                <p>Pricing your EcoEdu Sustainable Learning Kits should balance affordability with the value provided, while also offering attractive discounts and package deals to encourage subscriptions. Click on the button below to access our amazing plans for all our customers to help foster their love for learning</p>
+                <br>
+               <form action="subscriptions.html">
+                    <button type="submit" class="button">Plans</button>
+                </form>
+            </div>
+        </div>
+    
+    
+        
+    <div class="footer">
+        <footer style="font-size: 18px;">
+            <div class="column">
+                Home | About Us | kits | Subscription | FAQs
+            </div>
+            <div class="column">
+                <h2><u>Conatct Us</u></h2>
+            <p>+92 337 1405330 </p>
+            <p>ecoedu@gmail.com</p>
+            <p>@ecoedu</p>
+            </div>
+            <a href="ecoedu.html">Homepage </a>|
+            <a href="about.html">About Us </a>|
+            <a href="kits.html">Kits </a>|
+            <a href="subscriptions.html">Subscription </a>|
+            <a href="FAQ.html">FAQs </a>
+            <p>@ecoedu, Some rights reserved</p>
+        </footer>
+    </div>
+
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+
+

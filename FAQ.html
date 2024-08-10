@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <title>FAQs</title>
+    <link rel="stylesheet" href="FAQ.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" height="50" width="50">
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="ecoedu.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    <li><a href="subscriptions.html">Subscriptions</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    
+    <section class="home">
+    </section>
+
+    <div style="height: 100px; background-color: #0d782f; width: 100%;"></div>
+    <div style="text-align: left; font-size: 20px; padding-top: 3%; color: black; padding-left: 4%; padding-right: 4%;">
+        <b>Q. How does the monthly subscription work?</b>
+        <p style="text-align: left;"><b>A.</b> With our monthly subscription, you'll receive a new EcoEdu kit delivered to your door every month. Each kit focuses on different STEAM topics, ensuring your child stays engaged and excited about learning.</p>
+        <br>
+        <b>What materials are used in the kits?</b>
+        <p style="text-align: left;"><b>A.</b>Our kits are crafted from recycled paper, biodegradable plastics, and sustainably sourced wood. We prioritise eco-friendly materials to reduce environmental impact while providing high-quality educational experiences.</p>
+        <br>
+        <b>How does the Augmented Reality (AR) feature work?</b>
+        <p style="text-align: left;"><b>A.</b>The AR feature is accessed through our EcoEdu app, available for smartphones and tablets. Simply scan the included markers in the kit with the app to unlock interactive AR content that enhances the learning experience.</p>
+        <br>
+        <b>What age group are the kits suitable for?</b>
+        <p style="text-align: left;"><b>A.</b>Our kits are designed for children aged 5-12. Each kit is tailored to different developmental stages within this age range, ensuring age-appropriate challenges and learning opportunities.</p>
+        <br>
+        <b>Are there any resources available for parents?</b>
+        <p style="text-align: left;"><b>A.</b>Yes, each kit comes with a parent guide that provides instructions and tips to help you support your child’s learning. Additionally, our website features resources and activities for parents to engage in their child’s educational journey.</p>
+        <br>
+        <b>Can I purchase individual kits instead of subscribing?</b>
+        <p style="text-align: left;"><b>A.</b>Currently, we only offer a subscription service to ensure a continuous flow of learning materials. However, we occasionally offer limited edition kits for individual purchase. Keep an eye out on our website or sign up for our newsletter for updates on special offers.</p>
+        <br>
+        <b>Can I pause or cancel my subscription?</b>
+        <p style="text-align: left;"><b>A.</b>Yes, you can pause or cancel your subscription at any time through your account settings on our website. If you need assistance with this process, feel free to reach out to our customer support team.</p>
+        <br>
+        <b>Are the kits safe for children?</b>
+        <p style="text-align: left;"><b>A.</b>Absolutely. All our kits are tested for safety and comply with relevant safety standards. We use non-toxic materials and ensure that the activities are suitable for children in the specified age range.</p>
+        <br>
+        <b>How do I get started with EcoEdu?</b>
+        <p style="text-align: left;"><b>A.</b>Simply sign up for a subscription on our website, and you'll receive your first kit shortly thereafter. You'll also gain access to our EcoEdu app and online community, where the fun and learning continue!</p>
+        <br>
+        <b>What makes EcoEdu different from other educational kits?</b>
+        <p style="text-align: left;"><b>A.</b>EcoEdu stands out due to our commitment to eco-friendly materials and interactive learning through augmented reality. Our focus is not only on providing educational content but also on fostering environmental responsibility and community engagement.</p>
+        <br>
+        <b>Can I buy a gift subscription for someone else?</b>
+        <p style="text-align: left;"><b>A.</b>Yes, we offer gift subscriptions that you can purchase for friends or family. It's a great way to give the gift of continuous learning and creativity.</p>
+        
+    </div>
+
+    <footer style="font-size: 18px;">
+        <div class="column">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>kits</li>
+                <li>Subscription</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h4>Conatct Us</h4>
+            <ul>
+                <li>+92 337 1405330</li>
+                <li>ecoedu@gmail.com</li>
+                <li>@ecoedu</li>
+            </ul>
+        </div>
+        <a href="ecoedu.html">Homepage </a>|
+        <a href="about.html">About Us </a>|
+        <a href="kits.html">Kits </a>|
+        <a href="subscriptions.html">Subscription </a>|
+        <a href="FAQ.html">FAQs </a>
+        <p>@ecoedu, Some rights reserved</p>
+    </footer>
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>

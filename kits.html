@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <title>Kits</title>
+    <link rel="stylesheet" href="kits.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" height="50" width="50">
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="ecoedu.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="kits.html">Kits</a></li>
+                    <li><a href="subscriptions.html">Subscriptions</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li> 
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    
+    <section class="home">
+    </section>
+
+    <div style="height: 100px; background-color: #0d782f; width: 100%;"></div>
+
+    <div style="padding-bottom: 8%;">
+        <div>
+            <h1 style="padding-top: 3%;">OUR KITS</h1>
+        </div>
+        <div style="padding-top: 3%; padding-right: 7%; padding-left: 7%; text-align: center; color: black">
+            <p>Our EcoEdu Sustainable Learning Kits are thoughtfully designed to engage young minds in hands-on learning while promoting environmental stewardship. Each kit is packed with eco-friendly materials and curated activities that inspire creativity, critical thinking, and a love for science, technology, engineering, arts, and mathematics (STEAM).</p>
+        </div>
+        <div style="padding-top: 4%">
+            <h1>WHAT'S INCLUDED IN EACH KIT?</h1>
+        </div>
+
+        <div>
+            <div>
+                <div style="width: 50%; float:left; text-align: center; padding-top: 3%; padding-left: 5%; padding-right: 1%;">
+                    <h1>Themed learning Guide</h1>
+                    <h3 style="font-size: 20px; padding-top: 2%;"><i>Roadmap for the entire kit</i></h3>
+                    <p>Engaging explanations, fun facts, and educational insights related to the kit's theme, including special instructions</p>
+                </div>
+                <div style="width: 50%; float:right; text-align: center; padding-top: 3%; padding-left: 1%; padding-right: 5%;">
+                    <h1>Activity Sheets and Workbooks</h1>
+                    <h3 style="font-size: 20px; padding-top: 2%;"><i>Reinforce learning through practice</i></h3>
+                    <p>Interactive activities such as quizzes, crosswords, word searches, and hands-on experiments</p>
+                </div>
+            </div>
+        
+            <div>
+                <div style="width: 50%; float:left; text-align: center; padding-top: 3%; padding-left: 5%; padding-right: 1%;">
+                    <h1>Eco-Friendly Materials</h1>
+                    <h3 style="font-size: 20px; padding-top: 2%;"><i>Encourage creativity and hands-on learning while being kind to the planet</i></h3>
+                    <p>Recycled paper and cardboard, biodegradable plastics and sustainably sourced wood</p>
+                </div>
+                <div style="width: 50%; float:right; text-align: center; padding-top: 3%; padding-left: 1%; padding-right: 5%;">
+                    <h1>Augmented Reality (AR) Elements</h1>
+                    <h3 style="font-size: 20px; padding-top: 2%;"><i>Enhance learning through digital interaction</i></h3>
+                    <p>AR cards or components that, when scanned with the EcoEdu app, bring the kit’s theme to life with 3D animations, interactive lessons, and virtual experiments</p>
+                </div>
+            </div>
+        
+            <div>
+                <div style="width: 50%; float:left; text-align: center; padding-top: 3%; padding-left: 5%; padding-right: 1%;">
+                    <h1>DIY Project Components</h1>
+                    <h3 style="font-size: 20px; padding-top: 2%;"><i>Foster creativity and problem-solving skills</i></h3>
+                    <p>All the necessary tools and materials to build a project related to the kit's theme included</p>
+                </div>
+                <div style="width: 50%; float:right; text-align: center; padding-top: 3%; padding-left: 1%; padding-right: 5%;">
+                    <h1>Parental guide</h1>
+                    <h3 style="font-size: 20px; padding-top: 2%;"><i>Help parents assist their children in their leaning process</i></h3>
+                    <p> Tips for parents, additional questions, and suggested extensions for deeper exploration.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <img src="kit5.JPG" height="auto" width="100%" style="padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%;">
+    </div>
+<div class="footer">
+    <footer style="font-size: 18px;">
+        <div class="column">
+            Home | About Us | kits | Subscription | FAQs
+        </div>
+        <div class="column">
+            <h2><u>Conatct Us</u></h2>
+            <p>+92 337 1405330 </p>
+            <p>ecoedu@gmail.com</p>
+            <p>@ecoedu</p>
+        </div>
+        <a href="ecoedu.html">Homepage </a>|
+        <a href="about.html">About Us </a>|
+        <a href="kits.html">Kits </a>|
+        <a href="subscriptions.html">Subscription </a>|
+        <a href="FAQ.html">FAQs </a>
+        <p>@ecoedu, Some rights reserved</p>
+    </footer>
+</div>
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
