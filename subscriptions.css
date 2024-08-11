@@ -411,3 +411,47 @@ button {
     width: 250px;
     height: auto;
 }
+
+
+
+.subscription-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.subscription-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.subscription-card h3 {
+    font-size: 2rem;
+    color: #0d782f;
+    margin-bottom: 15px;
+}
+
+.subscription-card p {
+    font-size: 1.6rem;
+    color: #333;
+    margin: 10px 0;
+}
+.btn-subscribe {
+    background-color: #0d782f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.btn-subscribe:hover {
+    background-color: #00E676;
+}
